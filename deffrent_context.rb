@@ -85,4 +85,4 @@ p Planet.singleton_methods.include? :has_live? # true
 p mars.with_satellite # Mars
 p Planet.with_satellite # Earth
 
-test_class_eval
+#test_class_eval
