@@ -18,9 +18,10 @@ STRING_BRAKET
 ```
 - Symbol - like a String
 ```
-:'123'
-:"123"
+:'symbol'
+:"symbol"
 :symbol
+%s{symbol}
 ```
 - Integer
 ```
