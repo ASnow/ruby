@@ -51,4 +51,5 @@ value = key
 method(1, 2, {symbol: value})
 method(1, 2, symbol: value)
 method 1, 2, symbol: value
+method 1, 2, symbol=> value
 ```
