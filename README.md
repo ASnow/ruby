@@ -12,6 +12,9 @@ ruby
 '123'
 '1' '2' '3'
 %q{123}
+<<STRING_BRAKET
+123
+STRING_BRAKET
 ```
 - Symbol - like a String
 ```
@@ -29,6 +32,22 @@ ruby
 ```
 - Array
 ```
+#все это массивы из трех строк
 ['one', 'two', 'three']
 %w{one two three}
+```
+
+- Hash
+```
+key = "anyobject"
+value = key
+
+# пример хеша
+{key => value}
+{symbol: value}
+
+# пример использования хеша как последнего аргумента в методах
+method(1, 2, {symbol: value})
+method(1, 2, symbol: value)
+method 1, 2, symbol: value
 ```
