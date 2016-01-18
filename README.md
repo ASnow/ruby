@@ -170,3 +170,18 @@ HeloWorld\
     routes.rb
 ```
 
+- Как писать json?
+
+```
+# app/views/any.jbuilder
+
+json.key value # => {"key": value}
+
+json.obj do
+  json.a "A"
+  json.b "B"
+end # => {"obj": {"a": "A", "b": "B"}}
+
+
+json.(object, :property1, :property2) # => {"property1": "val1", "property2": "val2"}
+```
